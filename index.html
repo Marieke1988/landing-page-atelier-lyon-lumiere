@@ -4,9 +4,10 @@
 <head>
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
-  <title>Page d'inscription Atelier Lumière</title>
-  <meta name="description" content="">
-  <meta name="keywords" content="">
+  <title>Atelier Lyon en Lumière - Inscription et Créativité</title>
+  <meta name="description" content="Participez à l'atelier 'Lyon en Lumière' et découvrez la magie des créations lumineuses. Inscrivez-vous dès maintenant pour une expérience unique à Lyon.">
+  <meta name="keywords" content="Atelier Lyon en Lumière, Fête des Lumières, atelier créatif, photophore, enfants, activités Lyon, événements Lyon">
+  <meta name="author" content="A Mon Échelle">
 
   <!-- Favicons -->
   <link href="assets/img/Fichier 1.ico" rel="icon">
@@ -14,15 +15,11 @@
   <!-- Fonts -->
   <link href="https://fonts.googleapis.com" rel="preconnect">
   <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Montserrat:wght@400;700&family=Poppins:wght@400;700&display=swap" rel="stylesheet">
 
   <!-- Vendor CSS Files -->
   <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
   <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
-  <!-- <link href="assets/vendor/aos/aos.css" rel="stylesheet"> -->
-   <!--
-  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
-  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet"> -->
 
   <!-- Main CSS File -->
   <link href="assets/css/main.css" rel="stylesheet">
@@ -31,70 +28,83 @@
 
 <body class="index-page">
 
-  <header id="header" class="header d-flex align-items-center fixed-top">
+  <header id="header" class="header d-flex align-items-center fixed-top" aria-label="En-tête principal">
     <div class="container d-flex align-items-center justify-content-center">
-      <a href="index.html" class="logo" style="width: 200px;">
-          <img src="./assets/img/logo-a-mon-echelle.png" width="200" alt="">
+      <a href="index.html" class="logo" style="width: 200px;" aria-label="Retour à l'accueil">
+        <img src="./assets/img/logo-a-mon-echelle.png" width="200" alt="Logo de A Mon Échelle">
       </a>
     </div>
   </header>
 
-  <main class="main">
+  <main class="main" role="main">
     <!-- Hero Section -->
-    <section id="hero" class="hero section dark-background">
-
-      <img src="assets/img/230516_Pers VF.png" alt="" data-aos="fade-in">
+    <section id="hero" class="hero section dark-background" aria-labelledby="section-hero-title">
+      <img src="assets/img/background_image.png" alt="Illustration de l'atelier Lyon en Lumière" data-aos="fade-in">
 
       <div class="container">
         <div class="row">
-          <div class="col-lg-6 p-5 d-flex flex-column gap-4 left-column" style="background-color: #056380; ">
-            <h2 class="" data-aos="fade-up" data-aos-delay="100">Bienvenue sur la page d'inscription à l'atelier "Lyon en Lumière"</h2>
-            <p data-aos="fade-up" data-aos-delay="200">✨ Viens illuminer ta créativité à notre atelier spécial Fête des Lumières ! ✨</p>
+          <div class="col-lg-6 p-5 d-flex flex-column gap-4 left-column" style="background-color: #056380;">
+            <h1 id="section-hero-title" data-aos="fade-up" data-aos-delay="100">Bienvenue sur la page d'inscription à l'atelier "Lyon en Lumière"</h1>
+            <p data-aos="fade-up" data-aos-delay="200"><strong>✨ Viens illuminer ta créativité à notre atelier spécial Fête des Lumières ! ✨</strong></p>
             <p>
-              Plonge dans la magie des lumières et crée ta propre œuvre lumineuse ! Un atelier magique et créatif dès 6 ans pour fabriquer un photophore à l'image de Lyon  ! 🌟
+              <em>Plonge dans la magie des lumières et crée ta propre œuvre lumineuse !</em> Cet atelier est ouvert dès 6 ans pour fabriquer un photophore inspiré de Lyon. 🌟
             </p>
             <ul>
               <li>
-                Date : Samedi 7 décembre 2024
+                <strong>Date :</strong> Samedi 7 décembre 2024
               </li>
               <li>
-                Horaire : 10h à 12h
+                <strong>Horaire :</strong> 10h à 12h
               </li>
-                <li>
-                  Lieu : Maison du Projet Part-Dieu   <br>
-                  184 Cr Lafayette, 69003 Lyon
-                </li>
+              <li>
+                <strong>Lieu :</strong> Maison du Projet Part-Dieu<br>
+                184 Cr Lafayette, 69003 Lyon
+              </li>
             </ul>
+
+            <section class="image_gallery">
+              <img src="./assets/img/photophore1.jpg" alt="Atelier photophore - Lyon lumières">
+              <img src="./assets/img/photophore2.jpg" alt="Atelier photophore - Lyon lumières">
+              <img src="./assets/img/photophore3.jpg" alt="Atelier photophore - Lyon lumières">
+              <img src="./assets/img/photophore4.jpg" alt="Atelier photophore - Lyon lumières">              
+            </section>
           </div>
           <div class="col-lg-6 right-column">
-            <iframe width="100%" height="805" src="https://9a53609f.sibforms.com/serve/MUIFACsyQuKE1EIRZUINW4PBEd2sSkaJeq_itclNUDpIR9dIjhKUkPoqmJ4Tl7e0oTwVbiHHjb5LtncuVG6RT1pl1_x4PmpwhoYGrXSoedp-2Pyj3O1jGIseQBAJBUkO5F5OaCVdcFxNe9q_dk0sGXrC0QjDRTBn5CvKz5rYw3CDLIiUfdSOI7vP8J92XPC0mCG1-8SOoizE6Oj0" frameborder="0" scrolling="auto" allowfullscreen style="display: block;margin-left: auto;margin-right: auto;max-width: 100%;"></iframe>
+            <iframe width="100%" height="805" src="https://9a53609f.sibforms.com/serve/MUIFACsyQuKE1EIRZUINW4PBEd2sSkaJeq_itclNUDpIR9dIjhKUkPoqmJ4Tl7e0oTwVbiHHjb5LtncuVG6RT1pl1_x4PmpwhoYGrXSoedp-2Pyj3O1jGIseQBAJBUkO5F5OaCVdcFxNe9q_dk0sGXrC0QjDRTBn5CvKz5rYw3CDLIiUfdSOI7vP8J92XPC0mCG1-8SOoizE6Oj0" frameborder="0" scrolling="auto" allowfullscreen title="Formulaire d'inscription à l'atelier" style="display: block;margin-left: auto;margin-right: auto;max-width: 100%;"></iframe>
           </div>
         </div>
       </div>
     </section>
- 
   </main>
 
-  <!-- Scroll Top -->
-  <!-- <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a> -->
-
-  <!-- Preloader -->
-  <!-- <div id="preloader"></div> -->
-
-  <!-- Vendor JS Files -->
-
-  <!-- <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <script src="assets/vendor/php-email-form/validate.js"></script> -->
-  <!-- <script src="assets/vendor/aos/aos.js"></script> -->
-<!--
-  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
-  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
-  <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
-  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
-  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script> -->
-
-  <!-- Main JS File -->
-  <!-- <script src="assets/js/main.js"></script> -->
+  <!-- Données structurées -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Event",
+    "name": "Atelier Lyon en Lumière",
+    "description": "Participez à l'atelier 'Lyon en Lumière' pour créer des œuvres lumineuses. Inscription ouverte à tous dès 6 ans.",
+    "startDate": "2024-12-07T10:00:00",
+    "endDate": "2024-12-07T12:00:00",
+    "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+    "location": {
+      "@type": "Place",
+      "name": "Maison du Projet Part-Dieu",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "184 Cr Lafayette",
+        "addressLocality": "Lyon",
+        "postalCode": "69003",
+        "addressCountry": "FR"
+      }
+    },
+    "organizer": {
+      "@type": "Organization",
+      "name": "A Mon Échelle",
+      "url": "https://example.com"
+    }
+  }
+  </script>
 
 </body>
 
